@@ -4,7 +4,7 @@ class RandomNum extends Thread{
     public void run(){
         Random r = new Random();
         r.setSeed(50);
-        for(int i =0; i<15;i++){
+        for(int i=0; i<15; i++){
             int randomnumber = r.nextInt(100);
             if(randomnumber % 2 == 0){
                 squareThread sq = new squareThread(randomnumber);
