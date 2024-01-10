@@ -18,7 +18,7 @@ class FindReplace{
                 line = line.replaceAll(oldWord, newWord);
                 System.out.println(line);
 
-                modify.append(line).append("\n");
+               modify.append(line).append("\n");
             }
             br.close();
             
