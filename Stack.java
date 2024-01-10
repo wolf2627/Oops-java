@@ -95,5 +95,6 @@ class Stack{
                     break;
             }
         }while(ch!=5);
+        s.close();
     }
 }
